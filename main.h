@@ -51,7 +51,7 @@
 
 #define FAKE false
 
-char DENIS[] = "+33626281284";
+char DENIS[] = "+33xxxxxxx";
 int water = 0;                         // Water volume measured
 int alarmActive = 0;                   // 0 -> Alarm not active, 1 -> Alarme active
 unsigned long prevAlarm1;              // Variable used for knowing time since last alarm1
@@ -122,5 +122,6 @@ int GetTokenCloseBraces(char *input, int index);
 char *substring(char *string, int position, int length);
 void initEthernet();
 void recordEnergyMeter();
+
 
 #endif
