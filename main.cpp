@@ -32,8 +32,8 @@ byte i2cCmd = 0x15;
 // MySQL server
 IPAddress server(192, 168, 1, 50);
 uint16_t server_port = 3306;
-char user[] = "morind79";             // MySQL user login username
-char password[] = "DMO@moulins79";    // MySQL user login password
+char user[] = "xxxx";             // MySQL user login username
+char password[] = "xxxx";    // MySQL user login password
 MySQL_Connection conn((Client *)&client);
 
 // GPS
@@ -1013,4 +1013,5 @@ void loop() {
   
   // Task
   runner.execute();
+
 }
